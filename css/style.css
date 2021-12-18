@@ -1,0 +1,379 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+a, a:hover{
+	text-decoration: none;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+li{
+	list-style: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+
+
+/*top section starts here*/
+.top{
+	background: #f5f7fa;
+	padding: 0px 0px;
+}
+.top .left p{
+	display: inline;
+	color: #506a85;
+	font-size: 18px;
+	margin: 0px 30px 0px 0px;
+}
+.top .left p:hover{
+	color: #00bc9c;
+}
+.top .left i{
+	margin: 0px 10px 0px 0px
+}
+.top .right i{
+	color: #506a85;
+	font-size: 18px;
+}
+.top .right{
+	text-align: right;
+}
+.top .right .fa{
+	padding: 14px;
+}
+.top .right .fa-facebook:hover,.top .right .fa-facebook:focus{
+	color: #fff;
+	background: #4668b3;
+}
+.top .right .fa-google-plus:hover,.top .right .fa-google-plus:focus{
+	color: #fff;
+	background: #de5745;
+}
+.top .right .fa-twitter:hover,.top .right .fa-twitter:focus{
+	color: #fff;
+	background: #2fbbed;
+}
+.top .right .fa-pinterest-p:hover,.top .right .fa-pinterest-p:focus{
+	color: #fff;
+	background: #d94348;
+}
+.top .right .fa-behance:hover,.top .right .fa-behance:focus{
+	color: #fff;
+	background: #3079ff;
+}
+.top .right .fa-dribbble:hover,.top .right .fa-dribbble:focus{
+	color: #fff;
+	background: #eb6397;
+}
+.top .left{
+	margin: 10px 0px 10px 0px;
+}
+/*top section ends here*/
+
+
+
+
+/*header section starts here*/
+.header{
+	padding: 5px 0px;
+	background: #fff;
+	z-index: 999;
+}
+.navbar-wrapper {
+  	margin-top: 0px;
+  	position: relative;
+ 	z-index: 1000;
+}
+.isStuck{
+    left: 0px;
+    width: 100%;
+}
+.header .navbar ul li{
+	font-weight: 650;
+
+}
+.header .navbar .fa{
+	padding: 10px;
+}
+.header .navbar .fa:hover,.header .navbar .fa:hover{
+	background: #f5f7fa;
+}
+.header .navbar .nav-item .nav-link:hover,.header .navbar .nav-item .nav-link:focus{
+	color: #07b49a;
+	background: #f5f7fa;
+}
+/*header section ends here*/
+
+
+
+
+/*banner section starts here*/
+.banner .container-fluid{
+	padding: 0px;
+}
+.banner .carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 6px;
+    height: 6px;
+    padding: 0;
+    margin-right: 5px;
+    margin-left: 5px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+}
+.banner .carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 30%;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+}
+.banner .carousel-item button{
+	padding: 8px 16px;
+	background: #00bc9c;
+	color:#fff;
+	border: none;
+	font-weight: 600;
+	margin: 20px 0px 0px 0px;
+}
+.banner .carousel-item h1{
+	font-weight: 600;
+	font-size: 45px;
+}
+.banner .carousel-inner .third h1{
+	color: #506a85; 
+}
+.banner .carousel-inner .first p{
+	color: #a3b1bf;
+}
+.banner .carousel-inner .second p{
+	color: #fff;
+}
+.banner .carousel-inner .third p{
+	color: #506a85;
+}
+.banner .carousel-inner .fourth p{
+	color: #fff;
+}
+.banner .carousel-inner .fifth p{
+	color: #a3b1bf;
+}
+.banner .carousel-inner .first{
+	text-align: center;
+}
+.banner .carousel-inner .second{
+	text-align: right;
+}
+.banner .carousel-inner .third{
+	text-align: left;
+}
+.banner .carousel-inner .fourth{
+	text-align: right;
+}
+.banner .carousel-inner .fifth{
+	text-align: center;
+}
+/*banner section ends here*/
+
+
+
+
+/*beautiful section starts here*/
+.beautiful{
+	padding: 80px 0px;
+}
+.beautiful .headings{
+	text-align: center;
+	width: 70%;
+	margin: auto;
+}
+.beautiful .headings h1{
+	color: #506a85;
+	font-weight: 650;
+	margin: 0px 0px 20px 0px; 
+}
+.beautiful .details{
+	margin: 30px 0px 0px 0px;
+}
+.beautiful .details img{
+	width: 100%;
+	height: 25%;
+}
+.beautiful .headings p{
+	color: #506a85;
+}
+.beautiful .details p{
+	color: #506a85;
+}
+/*beautiful section ends here*/
+
+
+
+
+/*work section starts here*/
+.work{
+	padding: 80px 0px 20px 0px;
+	background: #f2f5f7;
+}
+.work .second img, svg {
+    vertical-align: middle;
+    width: 100%;
+    margin: 40px 0px 0px 0px;
+}
+.work .para{
+	background: #fff;
+	text-align: center;
+	padding: 18px 0px;
+}
+.work .para h5{
+	font-weight: 650;
+	color: #506a85;
+}
+.work .para p{
+	font-weight: 500;
+	color: #506a85;
+	margin: 0px;
+}
+.work .first{
+	text-align: center;
+}
+.work .first h1{
+	color: #506a85;
+	font-weight: 650;
+	margin: 0px 0px 20px 0px; 
+}
+.work .first p{
+	color: #506a85;
+}
+.work .third{
+	margin: 60px 0px;
+}
+/*work section ends here*/
+
+
+
+
+/*touch section starts here*/
+.touch{
+	padding: 80px 0px;
+	text-align: center;
+}
+.touch h1{
+	color: #506a85;
+	font-weight: 650;
+	margin: 0px 0px 20px 0px; 
+}
+.touch p{
+	color: #506a85;
+}
+.touch button{
+	padding: 8px 16px;
+	background: #00bc9c;
+	color:#fff;
+	border: none;
+	font-weight: 600;
+	margin: 20px 0px 0px 0px;
+}
+/*touch section ends here*/
+
+
+
+
+/*footer section starts here*/
+.footer{
+	padding: 80px 0px;
+	background: #2f4052;
+}
+.footer h5{
+	color: #fff;
+	font-weight: 550;
+	margin: 0px 0px 20px 0px;
+}
+.footer p{
+	color: #a3b1bf; 
+}
+.footer .first .more{
+	font-weight: 650;
+}
+.footer .first p{
+	margin: 20PX 0PX 0PX 0PX;
+}
+.footer .second img{
+	margin: 0px 0px 6px 0px;
+	width: 100%;
+}
+.footer .second .col-6{
+	padding: 0px 3px;
+}
+.footer .third .line p{
+	margin: 0px 0px 5px 0px;
+}
+.footer .third .line i{
+	margin: 0px 10px 0px 0px;
+}
+.footer .fourth .input{
+	font-size: 12px;
+	background: #4e5c6c;
+	border-radius: 3px;
+}
+.footer .fourth .input input{
+	background: transparent;
+	color: #fff;
+	padding: 8px 0px 8px 2px;
+	border: none;
+}
+.footer .fourth .input ::placeholder{
+	color: #a3b1bf;
+}
+.footer .fourth .input button{
+	float: right;
+	color: #fff;
+	background: #00bc9c;
+	padding: 6px 2px;
+	border: none;
+	margin: 2px;
+	border-radius: 3px;
+	font-size: 12px;
+}
+/*footer section ends here*/
+
+
+
+
+/*copyright section starts here*/
+.copyright{
+	padding: 25px 0px;
+	background: #283645;
+	color: #a3b1bf;
+}
+.copyright p{
+	margin: 4px 0px 0px 0px;
+}
+.copyright .left{
+	text-align: center;
+
+}
+.copyright .right{
+	text-align: right;
+}
+.copyright ul li{
+	display: inline;
+}
+.copyright .right .fa{
+	padding: 10px;
+	background: #3c5065;
+	color: #a3b1bf; 
+}
+/*copyright section ends here*/

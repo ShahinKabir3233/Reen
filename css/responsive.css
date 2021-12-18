@@ -1,0 +1,454 @@
+@media(max-width: 419px){
+	/*top section starts here*/
+	.top .right{
+		text-align: center;
+	}
+	.top .left{
+		text-align: center;
+	}
+	.top .left p{
+		font-size: 16px;
+	}	
+	.top .right i{
+		font-size: 16px;
+	}
+	.top .right .fa{
+		padding: 14px 8px;
+	}
+	.top .left p{
+		margin: 0px 15px 0px 0px;
+	}
+
+
+
+
+	/*header section starts here*/
+	.header .navbar img{
+		width: 60%;
+	}
+	.navbar-brand {
+	    margin-right: 0px;
+	}
+	/*header section ends here*/
+
+
+
+
+	/*banner section starts here*/
+	.banner .carousel-item p br{
+		display: none;
+	}
+	.banner .carousel-item h1{
+		font-size: 18px;
+	}
+	.banner .carousel-caption {
+	    bottom: 11%;
+	    padding: 0px;
+	}
+	.banner .carousel-item button{
+		margin: 5px 0px 5px 0px;
+		font-size: 10px;
+		padding: 4px 16px;
+	}
+	.banner .carousel-item p{
+		margin-bottom: 0px;
+		font-size: 14px;
+		line-height: 13px;
+	}
+	.banner .carousel-indicators {
+	    margin-bottom: 0px;
+	}
+	/*banner section ends here*/
+
+
+
+
+	/*beautiful section starts here*/
+	.beautiful .headings{
+		width: 100%;
+	}
+	.beautiful{
+		padding: 60px 0px;
+	}
+	.beautiful .details img{
+		width: 100%;
+		height: 30%;
+	}
+	.beautiful .headings h1{
+		font-size: 24px;
+	}
+	/*beautiful section ends here*/
+
+
+
+
+	/*work section starts here*/
+	.work .second img, svg {
+    	margin: 30px 0px 0px 0px;
+	}
+	.work{
+		padding: 60px 0px 5px 0px;
+	}
+	/*work section ends here*/
+
+
+
+
+	/*touch section starts here*/
+	.touch{
+		padding: 60px 0px;
+	}
+	.touch p br{
+		display: none;
+	}
+	/*touch section ends here*/
+
+
+
+
+	/*footer section starts here*/
+	.footer{
+		padding: 10px 0px 60px 0px;
+	}
+	.footer .first, .footer .second, .footer .third, .footer .fourth{
+		text-align: center;
+		margin: 50px auto 0px;
+		width: 100%;
+	}
+	.footer .first .more{
+		margin-top: 10px;
+	}
+	.footer .fourth .input{
+		margin: 0px auto;
+		width: 82%;
+	}
+	.footer .fourth input{
+		width: 68%;
+	}
+	/*footer section ends here*/
+}
+
+
+
+
+/*for xs*/
+@media(min-width: 420px) and (max-width: 575px){
+	/*top section starts here*/
+	.top .right{
+		text-align: center;
+	}
+	.top .left{
+		text-align: center;
+	}
+	.top .left p{
+		font-size: 16px;
+	}	
+	.top .right i{
+		font-size: 16px;
+	}
+	.top .right .fa{
+		padding: 14px 8px;
+	}
+	/*top section ends here*/
+
+
+
+
+	/*header section starts here*/
+	.header .navbar img{
+		width: 70%;
+	}
+	/*header section ends here*/
+
+
+
+
+	/*banner section starts here*/
+	.banner .carousel-item p br{
+		display: none;
+	}
+	.banner .carousel-item h1{
+		font-size: 30px;
+	}
+	.banner .carousel-caption {
+	    bottom: 10%;
+	    padding: 0px;
+	}
+	.banner .carousel-item button{
+		margin: 10px 0px 10px 0px;
+		font-size: 12px;
+	}
+	.banner .carousel-item p{
+		margin-bottom: 0px;
+		font-size: 14px;
+	}
+	.banner .carousel-indicators {
+	    margin-bottom: 0px;
+	}
+	/*banner section ends here*/
+
+
+
+
+	/*beautiful section starts here*/
+	.beautiful .headings{
+		width: 100%;
+	}
+	.beautiful{
+		padding: 60px 0px;
+	}
+	.beautiful .details img{
+		width: 100%;
+		height: 30%;
+	}
+	/*beautiful section ends here*/
+
+
+
+
+	/*work section starts here*/
+	.work .second img, svg {
+    	margin: 30px 0px 0px 0px;
+	}
+	.work{
+		padding: 60px 0px 10px 0px;
+	}
+	/*work section ends here*/
+
+
+
+
+	/*touch section starts here*/
+	.touch{
+		padding: 60px 0px;
+	}
+	.touch p br{
+		display: none;
+	}
+	/*touch section ends here*/
+
+
+
+
+	/*footer section starts here*/
+	.footer{
+		padding: 10px 0px 60px 0px;
+	}
+	.footer .first, .footer .second, .footer .third, .footer .fourth{
+		text-align: center;
+		margin: 50px auto 0px;
+		width: 80%;
+	}
+	.footer .first .more{
+		margin-top: 10px;
+	}
+	.footer .fourth .input{
+		margin: 0px auto;
+		width: 70%;
+	}
+	.footer .fourth input{
+		width: 69%;
+	}
+	.footer .second img{
+		width: 70%;
+	}
+	/*footer section ends here*/
+}
+
+
+
+
+/*for sm*/
+@media(min-width: 576px) and (max-width: 767px){
+	/*top section starts here*/
+	.top .right .fa{
+		padding: 14px 5px;
+	}
+	.top .left p{
+		margin: 0px 20px 0px 0px;
+	}
+	.top .left p{
+		font-size: 16px;
+	}	
+	.top .right i{
+		font-size: 16px;
+	}
+	.row .col-sm-8{
+		width: 62%;
+	}
+	.row .col-sm-4{
+		width: 38%;
+	}
+	/*top section ends here*/
+
+
+
+
+	/*header section starts here*/
+	.header .navbar img{
+		width: 80%;
+	}
+	/*header section ends here*/
+
+
+
+
+
+	/*banner section starts here*/
+	.banner .carousel-item p br{
+		display: none;
+	}
+	.banner .carousel-item h1{
+		font-size: 30px;
+	}
+	.banner .carousel-caption {
+	    bottom: 18%;
+	}
+	.banner .carousel-item button{
+		margin: 10px 0px 0px 0px;
+	}
+	.banner .carousel-item p{
+		margin-bottom: 0px;
+	}
+	/*banner section ends here*/
+
+
+
+
+	/*beautiful section starts here*/
+	.beautiful .headings{
+		width: 90%;
+	}
+	.beautiful{
+		padding: 60px 0px;
+	}
+	.beautiful .details img{
+		width: 100%;
+		height: 30%;
+	}
+	/*beautiful section ends here*/
+
+
+
+
+	/*work section starts here*/
+	.work .second img, svg {
+    	margin: 30px 0px 0px 0px;
+	}
+	.work{
+		padding: 60px 0px 10px 0px;
+	}
+	/*work section ends here*/
+
+
+
+
+	/*touch section starts here*/
+	.touch{
+		padding: 60px 0px;
+	}
+	.touch p br{
+		display: none;
+	}
+	/*touch section ends here*/
+
+
+
+
+	/*footer section starts here*/
+	.footer .third, .footer .fourth{
+		margin: 50px 0px 0px 0px;
+	}
+	/*footer section ends here*/
+}
+
+
+
+
+/*for md*/
+@media(min-width: 768px) and (max-width: 991px){
+	/*top section starts here*/
+	.top .right .fa{
+		padding: 14px 10px;
+	}
+	/*top section ends here*/
+
+
+
+
+	/*header section starts here*/
+	.header .navbar img{
+		width: 80%;
+	}
+	/*header section ends here*/
+
+
+
+
+	/*banner section starts here*/
+	.banner .carousel-item p br{
+		display: none;
+	}
+	.banner .carousel-item h1{
+		font-size: 40px;
+	}
+	.banner .carousel-caption {
+	    bottom: 18%;
+	}
+	/*banner section ends here*/
+
+
+
+
+	/*beautiful section starts here*/
+	.beautiful .details img{
+		width: 100%;
+		height: 15%;
+	}
+	/*beautiful section ends here*/
+
+
+
+
+	/*work section starts here*/
+	.work .second img, svg {
+    	margin: 30px 0px 0px 0px;
+	}
+	/*work section ends here*/
+
+
+
+
+	/*footer section starts here*/
+	.footer .third, .footer .fourth{
+		margin: 50px 0px 0px 0px;
+	}
+	.footer .fourth .input input{
+		width: 80%;
+	}
+	/*footer section ends here*/
+}
+
+
+
+
+/*for lg*/
+@media(min-width: 992px) and (max-width: 1199px){
+
+}
+
+
+
+
+/*for xl*/
+@media(min-width: 1200px) and (max-width: 1399px){
+
+}
+
+
+
+
+/*for xxl*/
+@media(min-width: 1400px){
+
+}
